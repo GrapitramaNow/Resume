@@ -1,0 +1,38 @@
+h1 {
+/* align-items:baseline;
+border-color: blue; */
+  color : red;
+  /* font-family: sans-serif; */
+  font-size: 200px;
+}
+
+img{
+  background-color: gray;
+}
+img:hover{
+  background-color: gold;
+  
+}
+/* Class Selecter */
+
+.bacon {
+  background-color: red;
+}
+.circular{
+  border-radius:100%;
+}
+.borderNha{
+  border-style: dotted;
+  border-width: 30px;
+}
+.broccoli{
+  background-color: green;
+}
+.sanwich{
+  background-color: blue;
+}
+/* ID selecter */
+#heading{
+  color: violet;
+
+}
