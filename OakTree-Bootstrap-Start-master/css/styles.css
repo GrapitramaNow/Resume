@@ -1,0 +1,52 @@
+#title{
+  background-color: #7FBCD2;
+  color: #ffffff;
+}
+/* 5F9DF7 */
+h1{
+  font-family: 'Mitr',sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: medium;
+}
+
+.container-fluid{
+  padding: 4% 10%;
+}
+
+/* Navbar container-fluid*/
+.container-fluid{
+  padding-top: 20px;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2rem;
+  font
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Ubuntu',sans-serif;;
+}
+
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 70%;
+  margin-left: 15%;
+  transform: rotate(25deg);
+}
