@@ -1,45 +1,191 @@
 body{
   margin: 0px;
-  text-align:center;
-
+  text-align: center;
+  font-family: verdana,sans-serif;
+  background-color: #B9E0FF;
 }
 
-div {
-  background-color: skyblue;
-  /* height: 300px; */
-}
-h1 {
-  margin-top: 0px;
-  /* color: gold; */
+
+div{
+  /* background-color: #3A6351; */
 }
 
+span{
+  text-decoration: underline;
+}
+
+h1{
+  padding: 10 0 1 0;
+  margin: 0 auto 0 auto;
+  font-family: verdana,sans-serif;
+  font-size: 4.3rem;
+}
+h3{
+  padding: 0;
+  margin :5 0 15;
+  /* font-family: 'Charm', cursive; */
+  font-size: 1.56rem;
+}
+h4{
+  margin: 5px 0 0 0;
+}
+
+.topleft-cloud{
+  position: absolute;
+  left:350px;
+  top:75px;
+  width: 10%;
+}
+
+.topright-cloud{
+  position: absolute;
+  right:300px;
+  top:280px;
+  /* margin-left: 800px;
+  margin-right: auto; */
+  width: 10%;
+}
+
+.bottomleft-cloud{
+  /* margin-bottom: 100px;
+  margin-left: 80px;
+  width: 10%; */
+  position: absolute;
+  left: 150px;
+  bottom: 400px;
+  width: 12%;
+}
+
+.bottomright-cloud{
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+  width: 11%;
+}
+
+.mountain1{
+  /* margin-left: 150px;
+  margin-right: 100px; */
+  width: 50%;
+}
 .top-container{
-  position: relative;
   background-color: #7895B2;
-  padding-top: 100px;
+  padding-top: 180px;
+  position: relative;
 }
 
+.image_profile{
+  margin-top: 40px;
+  width: 15%;
+  border-radius: 100%;
+}
 
 .example-div{
-  height: 600px;
-  width: 600px;
-  background-color: pink;
-  border: solid;
-  border-width: 50px;
-  border-top: 0px;
-  padding: 50px;
-  overflow: hidden;
-
+height: 350px;
+width: 83%;
+background-color: #3A6351;
+border-width: 5px;
+border-top: 0px;
+padding: 20px;
 }
-.middle-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
 
+/* .middle-container{
+height: 200px;
+width: 200px;
+background-color: blue;
 }
-.botton-container{
+
+.bottom-container{
   height: 200px;
   width: 200px;
   background-color: red;
+} */
 
+.NavBar1{
+  width: 100%;
+  background-color: #9D9D9D;
+  position: fixed;
+  z-index: +1;
+  height: 30px;
+}
+
+.MySkills{
+  margin:50px auto ;
+  text-align: left;
+  width: 25%;
+}
+
+.vegas-img{
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.game-img{
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.programming-img{
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.skill1{
+  margin: 50px auto;
+}
+
+.skill2{
+  margin: 50px auto;
+}
+
+.skill3{
+  margin: 50px auto;
+}
+
+.skill1-desc{
+  clear: left;
+}
+
+.skill2-desc{
+  clear: right;
+}
+
+.skill3-desc{
+  clear: left;
+}
+
+.headingskill1{
+  margin: 0 0 10px 150px;
+  padding-top: 30px;
+}
+
+.headingskill2{
+margin: 0 0 10px 30px;
+padding-top: 30px;
+}
+
+.headingskill3{
+  margin: 0 0 10px 150px;
+  padding-top: 20px;
+}
+
+
+#content1{
+  margin-top: 80px;
+  font-style: 'Noto Sans Thai',sans-serif;
+  font-size: 2.5rem;
+}
+
+#Thai-name{
+  font-family: 'Charm', cursive;
+}
+
+#NavBarHome{
+  margin: 5px 0 0 0;
 }
